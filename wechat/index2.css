@@ -1,0 +1,26 @@
+.mpui-mass-list__media__overview .mpui-popover {
+  display: none;
+  margin-top: 0;
+}
+.mpui-mass-list__media__overview .mpui-popover__wrp {
+  padding-bottom: 10px;
+  cursor: initial;
+}
+.mpui-mass-list__media__overview .mpui-popover__wrp:hover .mpui-popover {
+  display: block;
+}
+.mpui-mass .mpui-list__item.title_left .mpui-mass__content {
+  overflow: visible;
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+  width: auto;
+}
+.mpui-mass .mpui-list__item.title_left .mpui-mass__content:after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
